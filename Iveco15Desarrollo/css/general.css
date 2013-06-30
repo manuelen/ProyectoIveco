@@ -1,0 +1,203 @@
+/*.body {
+    background-image: url(../img/bodybg.png);
+    background-repeat:repeat-y;
+    background-position:center;
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	overflow:hidden;
+   overflow-x: hidden;
+  }
+*/
+
+#usuario {
+	height:24px;
+	background: url('../img/uid.png') no-repeat 0 1px;
+	background-color: #FAFAFF;
+	padding-left: 17px;
+}
+
+#usuario:focus {
+	background-color: #F0F0FF;
+}
+
+#usuario:disabled {
+	background-color: #DDDDFF;
+}
+
+#clave{
+	height:24px;
+	background: url('../img/key.png') no-repeat 0 4px;
+	background-color: #FAFAFF;
+	padding-left: 17px;
+}
+
+#clave:focus {
+	background-color: #F0F0FF;
+}
+
+#clave:disabled {
+	background-color: #DDDDFF;
+}
+
+
+#conte {
+    display:none;
+    overflow:auto;
+  }
+/* inicialmente se llamaba: #contenedor*/
+#contenedor1 {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 982px;
+    height:auto;
+  }
+
+#barra {
+	background-image: url(../img/lo.png);
+    background-repeat:no-repeat;
+    width:980px;
+    height:70px;
+    margin-bottom:0px;
+	position:relative;
+	font-weight: bold;
+  }
+#header {
+    background-image: url(../img/logo-gob.png);
+    background-repeat:no-repeat;
+    width:980px;
+    height:70px;
+    margin-bottom:0px;
+	position:relative;
+  }
+
+
+#contenido {
+    background:#FFF;
+    background-image: url(../img/logo25.png);
+    background-repeat:no-repeat;
+    width:982px;
+    height:350px;
+  }
+
+#pie {
+    width:980px;
+    height:50px;
+    margin-bottom:0px;
+	position:relative;
+  }
+  
+  
+  #lateral-izquierdo {
+    background:#F8F8F8;
+    width:150px;
+    height:auto;
+	/*position:relative;*/
+    float:left;
+  }
+
+
+#lateral-derecho {
+   /*background-color : #FFFFFF;*/
+    float : right;
+    height: auto;
+    position : relative;
+    width : 790px;
+    overflow:auto;
+  }
+
+#letras{
+
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+			font-style: normal;
+			line-height: normal;
+			font-weight: bold;
+			color: #ffffff;
+			text-align: center;
+			white-space: normal
+}
+
+#messages {
+    background-color : white;
+    border-bottom-color : #E04B4B;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
+    border-left-color : #E04B4B;
+    border-left-style : solid;
+    border-left-width : 1px;
+    border-right-color : #E04B4B;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #E04B4B;
+    border-top-style : solid;
+    border-top-width : 1px;
+    display : none;
+    float : inherit;
+    left : 500px;
+    margin-top : 0px;
+    padding-bottom : 15px;
+    padding-left : 15px;
+    padding-right : 15px;
+    padding-top : 15px;
+    position : fixed;
+    text-align : center;
+    top : 20px;
+    width : 320px;
+  }
+
+
+#message {
+    font-size: 28px;
+    font-weight: bold;
+    color: #69c;
+  }
+  
+  #msj_aceptar{
+display: none;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px;
+			font-style: normal;
+			line-height: normal;
+			font-weight: bold;
+			color: #339933;
+			/*background-image:url(../img/IMAGENES/PNG/TABLE/vinotinto/mensaje/msn.png);
+			background-repeat:no-repeat;*/
+			text-align: center;
+			white-space: normal;
+			height: auto;
+			width: 480px;
+			background-color: #6DB8FF;
+			border: 1px dashed #339966;
+			text-transform:uppercase;
+			padding:0px 0px 0px 0px;
+            position:fixed;
+            top:150px;
+            left:450px;
+            z-index:20;
+}
+
+#msj_cancelar{
+			display: none;
+		/*	background-image:url(../img/IMAGENES/PNG/TABLE/vinotinto/mensaje/msn.png);
+			background-repeat:no-repeat;*/
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px;
+			font-style: normal;
+			line-height: normal;
+			font-weight: bold;
+			color:#CC0000;
+		  	background-color:#FF888A;
+			text-align: center;
+			white-space: normal;
+			height: auto;
+			width: 480px;
+			border: 1px dashed #CC0000;
+			text-transform:uppercase;
+			padding:0px 0px 1px 0px;
+            position:fixed;
+            top:150px;
+            left:450px;
+            z-index:20;
+}
+
