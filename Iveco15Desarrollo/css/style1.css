@@ -1,0 +1,128 @@
+/* Styles for the top navigation bar */
+body {
+  margin:0 auto;
+}
+/*--navigation wrapper--*/
+#navwrapper {
+  margin:0 auto;
+  background-color: #2D2D2D;
+}
+#nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  padding-top:4px;
+}
+#nav, #nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*--main nav links style --*/
+#nav a {
+  display:block;
+  padding:7px 7px 7px 7px;
+  color:#ccc;
+  text-decoration:none;
+}
+#nav a.dmenu {
+}
+#nav a.dmenu:hover {
+  color:#3366CC !important ;
+  background-color: #fff !important;
+}
+#nav li {
+  float: left;
+}
+#nav li {position: relative;}
+/* hide from IE, mac */
+#nav li {position: static; width: auto;}
+/* end hiding from IE5 mac */
+/*--drop down menu styling --*/
+#nav li ul {
+  position: absolute;
+  display: none;
+  margin-left:-1px;
+  padding-bottom:10px;
+  background-color: #FFFFFF;
+  border: 1px solid #bbb;
+  border-top:none;
+  -moz-box-shadow: 0 0 5px #ddd;
+  -webkit-box-shadow: 0 0 5px #ddd;
+  box-shadow: 0 0 5px #ddd;
+/*--make it top of all the elements on page, so that it can be visible--*/
+  z-index:5000;
+}
+#nav li:hover a, #nav a:focus,
+#nav a:active {
+  padding:7px 7px 7px 7px;
+  color:#fff;
+  background:#444;
+  text-decoration:none;
+}
+#nav li ul, #nav ul li  {
+width: 10em;
+}
+/*--drop down menu styling is different from main nav, strict rule--*/
+#nav ul li a  {
+  color: #3366CC !important;
+  border-right: 0;
+}
+#nav ul li a:hover {
+  color:#3366CC !important ;
+  background-color: #eef3fb !important;
+  border-right: 0;
+}
+/*--the selected, current item in the navigation menu--*/
+#nav a.current{
+  color:#fff;
+  font-weight:bold;
+  background:#2D2D2D;
+  text-decoration:none;
+  border-top:2px solid #C33;
+  padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+#nav a.current:hover{
+  padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+#nav li:hover ul {
+  display: block;
+}
+#nav li:hover ul a {
+  color: #000000;
+  background-color: transparent;
+}
+#nav ul a:hover {
+  background-color: #606060 !important;
+  color: #FFFFFF !important;
+}
+ /*--used in drop down menu items--*/
+.menuseprator{border-bottom:1px solid #ddd; margin:10px 0 10px 0;}
+/*--for showing down arrow in drop down menu item--*/
+.arrowdown{color#eee; font-size: 0.5em;}
+/*--for the left navigation menu--*/
+.floatleft{float:left;}
+/*--for the right options navigation menu--*/
+.floatright{float:right}
+/*--clear all floating, left and right--*/
+.clear{clear:both;}
+
+
+/* Styles for the footer box */
+table.footer_box{ margin-top: 20px; margin-bottom: 20px; background: #eef4ff;width: 70%;margin-left: 15%; margin-right: 15%;text-align: center;border: 0px;border-spacing: 0px;padding: 0px; }
+table.footer_box tr.row1 td.td1{ width: 8px; height: 8px; background: url(/img/topleft.gif) top left no-repeat;padding: 0em;border: 0px; }
+table.footer_box tr.row1 td.td2{ height: 8px; background: url(/img/stripe.gif) top left repeat-x;padding: 0em;border: 0px; }
+table.footer_box tr.row1 td.td3{ width: 8px; height: 8px; background: url(/img/topright.gif) top right no-repeat;padding: 0em;border: 0px; }
+table.footer_box tr.row2 td.td1{ width: 8px; background: url(/img/stripe.gif) top left repeat-y;padding: 0em;border: 0px; }
+table.footer_box tr.row2 td.td2{ padding: 3px;padding: 0em;border: 0px; }
+table.footer_box tr.row2 td.td3{ width: 8px; background: url(/img/stripe.gif) top right repeat-y;padding: 0em;border: 0px; }
+table.footer_box tr.row3 td.td1{ width: 8px; height: 8px; background: url(/img/bottomleft.gif) bottom left no-repeat;padding: 0em;border: 0px; }
+table.footer_box tr.row3 td.td2{ height: 8px; background: url(/img/stripe.gif) bottom left repeat-x;padding: 0em;border: 0px; }
+table.footer_box tr.row3 td.td3{ width: 8px; height: 8px; background: url(/img/bottomright.gif) bottom right no-repeat;padding: 0em;border: 0px; }
+
+/* Styles for the arrow in footer box */
+.arrow {border: 0px;vertical-align: middle;}
+
+/* Styles for the body text */
+
+body {font-family: Verdana;font-size: 12px;}
